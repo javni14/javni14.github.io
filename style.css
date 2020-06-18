@@ -227,7 +227,12 @@ img {
 }
 @media(min-width: 320px) {
 	.photo-banner {
-		display: none;
+		display: flex;
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+		height: 75%;
+		width: 75%;
 	}
 	.descr-banner {
 		display: block;
